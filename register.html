@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pendaftaran</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/regist.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+        .re{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="jadwal">
+        <a href="#" class="logo">KARATE</a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="dropbtn">Home</a></li>
+                <li class="dropdown"><a href="#About" class="dropbtn">Tentang</a>
+                    <div class="dropdown-content">
+                        <a href="#about">Karate</a>
+                        <a href="#coach">Pelatih</a>
+                        <a href="#">Dojo/Ranting</a>
+                    </div>
+                </li>
+                <li><a href="#activity" class="dropbtn">Activity</a></li> 
+                <li class="dropdown" class="dropbtn"><a href="#join" class="dropbtn">Join</a>
+                    <div class="dropdown-content">
+                        <a href="register.html" target='_blank'>Pendaftaran</a>
+                        <a href="cost.html">Biaya Pelatihan</a>
+                        <a href="jadwal.html" target="_blank">Jadwal Latihan</a>
+                    </div>
+                </li>
+                    
+                <li><a href="#contact" class="dropbtn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="container-register">
+        <div id="title">
+            <i class="material-icons group">group</i> Pendaftaran
+        </div>
+
+        <form>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">email</i>
+                </div>
+                <input id="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">phone</i>
+                </div>
+                <input placeholder="Nomor Telfon" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input placeholder="Nama Lengkap" type="text" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons cake">cake</i>
+                </div>
+                <input placeholder="Tanggal Lahir" type="date">
+            </div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons school">school</i>
+                </div>
+                <input placeholder="Asal sekolah">
+            </div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">home</i>
+                </div>
+                <input placeholder="Alamat">
+            </div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">class</i>
+                </div>
+                <input placeholder="Kelas Yang diikuti">
+            </div>
+
+            <input class="re" type="submit" value="Register"/>
+        </form>
+    </div>
+    <footer>
+        <p class="cr">&#169; INKANAS CIREBON KOTA 2022</p>
+        <div class="social-media">
+            <ul>
+                <li><a href="https://instagram.com/inkanasciko"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://facebook.com/inkanas-cirebon-kota"><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-list">
+            <ul>
+                <li>About</li>
+                <li>Career</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

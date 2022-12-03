@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+
+    font-family: 'Raleway', sans-serif;
+    color: #F2F2F2;
+}
+
+#container-register {
+    background-color: #970000;
+    position: relative;
+    top: 5%;
+    margin: 10em;
+    width: 340px;
+    height: auto;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.re{
+    margin-top: 20px;
+}
+
+#title {
+    position: relative;
+    background-color: #970000;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 0.35em;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.lock {
+	position: relative;
+	top: 2px;
+}
+
+.input {
+    margin: auto;
+    width: 240px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.input-addon {
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #970000;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=text] {
+    color: #970000;
+    margin: 0;
+    background-color: #ffffff;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+
+input[type=submit] {
+    padding: 6px 25px;
+    background: #ffffff;
+    color:#970000;
+    font-weight:bold;
+    border:0 none;
+    cursor:pointer;
+    border-radius:3px
+}
+
+.register {
+    margin: 20px;
+    padding: 16px 0;
+    text-align: center;
+    width: 85%;
+    border-top: 1px solid #ffffff;
+}
+
+.material-icons{
+    color: #970000;
+}
+.group{
+    color: #ffffff;
+}
